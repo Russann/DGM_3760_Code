@@ -1,0 +1,32 @@
+{
+  "name": "thorclass",
+  "version": "1.0.0",
+  "description": "first class",
+  "main": "clear",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-nodemon": "^2.0.6",
+    "kerberos": "0.0.18",
+    "mongoose": "^4.3.5",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.0",
+    "sinon": "^1.17.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-env": "^0.4.0",
+    "supertest": "^1.1.0"
+  }
+}
