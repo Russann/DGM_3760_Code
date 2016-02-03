@@ -37,6 +37,19 @@ app.use('/api/books', bookRouter);
 app.get('/', function (req, res) {
     res.send('welcome to my little teensey weensy API!');
 });
+
+app.get('/car', function(req,res) {
+  var car = {
+    make: 'Chevrolet',
+    model: 'Stanza',
+    color: 'Green',
+    options: {
+        AC : true,
+        GPS : true
+    }
+  };
+    res.send(car);
+  });
 //have the app start listening on that port
 app.listen(port, function(){
     console.log('Gulp is Running on PORT:' + port);
